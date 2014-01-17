@@ -3,6 +3,7 @@ alias g-status="git status"
 alias g-add="git add"
 alias g-commit="git commit --signoff"
 alias g-pull="git pull"
+alias g-push="git push"
 alias g-remote-add="git remote add"
 alias g-remote-del="git remote remove"
 
