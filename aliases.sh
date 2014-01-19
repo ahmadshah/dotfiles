@@ -20,8 +20,14 @@ alias update-this-composer="composer update --dev --prefer-dist"
 # Testing
 alias run-unit-test="phpunit"
 
+# Vagrant
+alias v-start="vagrant up"
+alias v-stop="vagrant halt"
+alias v-restart="vagrant reload"
+
 # others
 alias to-the-lab="cd ~/Debian"
 alias sudoers="sudo"
 alias restart-apache="sudo apachectl -k restart"
 alias get-ssh-key="cat ~/.ssh/id_rsa.pub | pbcopy && echo 'SSH key copied'"
+alias vaprobash="curl -L http://bit.ly/vaprobash > Vagrantfile"
