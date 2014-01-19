@@ -1,4 +1,5 @@
 # git commands
+alias g-clone="git clone"
 alias g-status="git status"
 alias g-add="git add"
 alias g-commit="git commit --signoff"
@@ -20,6 +21,7 @@ alias update-this-composer="composer update --dev --prefer-dist"
 alias run-unit-test="phpunit"
 
 # others
+alias to-the-lab="cd ~/Debian"
 alias sudoers="sudo"
 alias restart-apache="sudo apachectl -k restart"
 alias get-ssh-key="cat ~/.ssh/id_rsa.pub | pbcopy && echo 'SSH key copied'"
